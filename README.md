@@ -29,6 +29,7 @@ poudriere bulk -j 140amd64 -p default -O syobonic-overlay foo/bar
 ### Added ports
 
 - `japanese/cskk`: [\[Bug 276831\]](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=276831) SKK (Simple Kana Kanji henkan) library
+- `japanese/fcitx5-cskk`: [\[Bug 276832\]](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=276832) SKK input method plugin for fcitx5 that uses LibCSKK
 
 ### Modified ports
 

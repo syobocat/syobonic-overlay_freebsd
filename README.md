@@ -31,4 +31,5 @@ poudriere bulk -j 140amd64 -p default -O syobonic-overlay foo/bar
 ### Modified ports
 
 - `multimedia/obs-studio`: [\[Bug 276728\]](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=276728) Fix BROKEN state when OPTIONS_UNSET+=PULSEAUDIO
+- `multimedia/qt6-multimedia`: Make audio backend optional
 - `www/qt6-webengine`: Make audio backend optional

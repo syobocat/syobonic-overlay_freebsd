@@ -51,7 +51,7 @@ include/Fcitx5/Module/fcitx-module/spell/spell_public.h
 include/Fcitx5/Module/fcitx-module/testfrontend/testfrontend_public.h
 include/Fcitx5/Module/fcitx-module/testim/testim_public.h
 include/Fcitx5/Module/fcitx-module/unicode/unicode_public.h
-include/Fcitx5/Module/fcitx-module/wayland/wayland_public.h
+%%WAYLAND%%include/Fcitx5/Module/fcitx-module/wayland/wayland_public.h
 include/Fcitx5/Module/fcitx-module/xcb/xcb_public.h
 include/Fcitx5/Utils/fcitx-utils/capabilityflags.h
 include/Fcitx5/Utils/fcitx-utils/charutils.h
@@ -127,8 +127,8 @@ lib/cmake/Fcitx5ModuleTestIM/Fcitx5ModuleTestIMConfig.cmake
 lib/cmake/Fcitx5ModuleTestIM/Fcitx5ModuleTestIMConfigVersion.cmake
 lib/cmake/Fcitx5ModuleUnicode/Fcitx5ModuleUnicodeConfig.cmake
 lib/cmake/Fcitx5ModuleUnicode/Fcitx5ModuleUnicodeConfigVersion.cmake
-lib/cmake/Fcitx5ModuleWayland/Fcitx5ModuleWaylandConfig.cmake
-lib/cmake/Fcitx5ModuleWayland/Fcitx5ModuleWaylandConfigVersion.cmake
+%%WAYLAND%%lib/cmake/Fcitx5ModuleWayland/Fcitx5ModuleWaylandConfig.cmake
+%%WAYLAND%%lib/cmake/Fcitx5ModuleWayland/Fcitx5ModuleWaylandConfigVersion.cmake
 lib/cmake/Fcitx5ModuleXCB/Fcitx5ModuleXCBConfig.cmake
 lib/cmake/Fcitx5ModuleXCB/Fcitx5ModuleXCBConfigVersion.cmake
 lib/cmake/Fcitx5Utils/Fcitx5CompilerSettings.cmake
@@ -157,8 +157,8 @@ lib/fcitx5/libtestfrontend.so
 lib/fcitx5/libtestim.so
 lib/fcitx5/libtestui.so
 lib/fcitx5/libunicode.so
-lib/fcitx5/libwayland.so
-lib/fcitx5/libwaylandim.so
+%%WAYLAND%%lib/fcitx5/libwayland.so
+%%WAYLAND%%lib/fcitx5/libwaylandim.so
 lib/fcitx5/libxcb.so
 lib/fcitx5/libxim.so
 lib/libFcitx5Config.so
@@ -193,8 +193,8 @@ share/dbus-1/services/org.fcitx.Fcitx5.service
 %%DATADIR%%/addon/quickphrase.conf
 %%DATADIR%%/addon/spell.conf
 %%DATADIR%%/addon/unicode.conf
-%%DATADIR%%/addon/wayland.conf
-%%DATADIR%%/addon/waylandim.conf
+%%WAYLAND%%%%DATADIR%%/addon/wayland.conf
+%%WAYLAND%%%%DATADIR%%/addon/waylandim.conf
 %%DATADIR%%/addon/xcb.conf
 %%DATADIR%%/addon/xim.conf
 %%DATADIR%%/data/quickphrase.d/emoji-eac.mb

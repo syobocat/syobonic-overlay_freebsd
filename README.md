@@ -2,7 +2,7 @@
 
 ## What is this?
 
-This is the collection of Ports I modified but did not send the patch to the upstream, or sent but not merged yet.  
+This is the collection of Ports I modified but did not send the patch to the upstream, or sent but has not been merged yet.  
 For the latter case, I will remove the port from here when they merge it.
 
 ## How can I use this?

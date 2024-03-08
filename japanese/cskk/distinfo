@@ -611,5 +611,5 @@ SHA256 (rust/crates/xkbcommon-0.5.1.crate) = 52db25b599e92bf6e3904134618728eeb7b
 SIZE (rust/crates/xkbcommon-0.5.1.crate) = 58659
 SHA256 (rust/crates/zeroize-1.6.0.crate) = 2a0956f1ba7c7909bfb66c2e9e4124ab6f6482560f6628b5aaeba39207c9aad9
 SIZE (rust/crates/zeroize-1.6.0.crate) = 19049
-SHA256 (naokiri-cskk-v3.1.0_GH0.tar.gz) = b0ed9f588e9a56b0b3a058095e0a283650841dd27ece3dec47dc890a1cc03de9
-SIZE (naokiri-cskk-v3.1.0_GH0.tar.gz) = 162109
+SHA256 (naokiri-cskk-v3.1.1_GH0.tar.gz) = 6e4caddaa72c275c3a6d89bd7abdd1f4b17004f77373524d0990616e8aa7aad0
+SIZE (naokiri-cskk-v3.1.1_GH0.tar.gz) = 162922

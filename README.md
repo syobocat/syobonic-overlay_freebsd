@@ -28,12 +28,14 @@ poudriere bulk -j 140amd64 -p default -O syobonic-overlay foo/bar
 
 ### Added ports
 
-- `japanese/cskk`: [\[Bug 276831\]](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=276831) SKK (Simple Kana Kanji henkan) library
-- `japanese/fcitx5-cskk`: [\[Bug 276832\]](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=276832) SKK input method plugin for fcitx5 that uses LibCSKK
-
 ### Modified ports
 
 - `multimedia/obs-studio`: [\[Bug 276728\]](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=276728) Fix BROKEN state when OPTIONS_UNSET+=PULSEAUDIO
 - `multimedia/qt6-multimedia`: Make audio backend optional
 - `textproc/fcitx5`: [\[Bug 276819\]](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=276819) Fix to allow building without WAYLAND
 - `www/qt6-webengine`: Make audio backend optional
+
+### Ports that used to be in this overlay
+
+- `japanese/cskk`: [\[Bug 276831\]](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=276831) SKK (Simple Kana Kanji henkan) library
+- `japanese/fcitx5-cskk`: [\[Bug 276832\]](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=276832) SKK input method plugin for fcitx5 that uses LibCSKK

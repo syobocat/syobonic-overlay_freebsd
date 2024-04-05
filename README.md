@@ -28,6 +28,8 @@ poudriere bulk -j 140amd64 -p default -O syobonic-overlay foo/bar
 
 ### Added ports
 
+- `games/prism-launcher`: Copied from [er2off/freebsd-ports](https://github.com/er2off/freebsd-ports)
+
 ### Modified ports
 
 - `multimedia/obs-studio`: [\[Bug 276728\]](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=276728) Fix BROKEN state when OPTIONS_UNSET+=PULSEAUDIO
